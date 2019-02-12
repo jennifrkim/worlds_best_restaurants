@@ -1,6 +1,7 @@
-require "worlds_best_restaurants/version"
+require 'open-uri'
+require 'nokogiri'
+require 'pry'
 
-module WorldsBestRestaurants
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "./worlds_best_restaurants/version"
+require_relative "./worlds_best_restaurants/restaurant"
+require_relative "./worlds_best_restaurants/cli"
